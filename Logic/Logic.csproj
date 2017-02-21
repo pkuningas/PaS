@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Archetypes.cs" />
+    <Compile Include="PackageType.cs" />
     <Compile Include="PricingStrategy.cs" />
     <Compile Include="ProductType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
