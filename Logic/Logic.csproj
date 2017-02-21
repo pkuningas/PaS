@@ -40,9 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Archetype.cs" />
+    <Compile Include="Archetypes.cs" />
+    <Compile Include="Archetypes1.cs" />
     <Compile Include="PricingStrategy.cs" />
+    <Compile Include="ProductType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aids\Aids.csproj">
+      <Project>{3eaf8b82-e2c3-4512-bad5-61659e8a340d}</Project>
+      <Name>Aids</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
