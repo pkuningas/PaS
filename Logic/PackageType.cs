@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Logic
+﻿namespace Logic
 {
     class PackageType
     {
+        private PricingStrategy pricingStrategy;
+
+        public PackageType(){}
+
+        public PackageType(PricingStrategy strategy)
+        {
+            pricingStrategy = strategy;
+        }
+
+        public PricingStrategy GetPricingStrategy()
+        {
+            return pricingStrategy;
+        }
+
+        public void SetPricingStrategy(PricingStrategy strategy)
+        {
+            pricingStrategy = strategy;
+        }
     }
 }
