@@ -1,24 +1,14 @@
 ﻿namespace Logic
 {
-    class PackageType
+    public class PackageType
     {
-        private PricingStrategy pricingStrategy;
+        public PricingStrategy pricingStrategy { get; set; }
 
-        public PackageType(){}
+        public PackageType(){ }
 
-        public PackageType(PricingStrategy strategy)
+        public PackageType(PricingStrategy pricingStrategy)
         {
-            pricingStrategy = strategy;
-        }
-
-        public PricingStrategy GetPricingStrategy()
-        {
-            return pricingStrategy;
-        }
-
-        public void SetPricingStrategy(PricingStrategy strategy)
-        {
-            pricingStrategy = strategy;
+            this.pricingStrategy = pricingStrategy;
         }
     }
 }

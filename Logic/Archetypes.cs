@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Logic
 {
-    public class Archetypes<T>: Archetypes, IList<T>
+    public class Archetypes<T>: IList<T>
     {
         private readonly List<T> list;
         public Archetypes()
