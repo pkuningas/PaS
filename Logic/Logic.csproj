@@ -40,11 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Archetype.cs" />
     <Compile Include="Archetypes.cs" />
-    <Compile Include="IAttribute.cs" />
+    <Compile Include="CatalogueCategory.cs" />
+    <Compile Include="Attribute.cs" />
     <Compile Include="PackageType.cs" />
+    <Compile Include="PossiblePrice.cs" />
+    <Compile Include="PossiblePrices.cs" />
+    <Compile Include="Price.cs" />
     <Compile Include="PricingStrategy.cs" />
     <Compile Include="ProductType.cs" />
+    <Compile Include="ProductTypeID.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +58,9 @@
       <Project>{3eaf8b82-e2c3-4512-bad5-61659e8a340d}</Project>
       <Name>Aids</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ModelCheck.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

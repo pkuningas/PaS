@@ -1,14 +1,14 @@
 ﻿namespace Logic
 {
-    public class PackageType
+    public class PackageType: ProductType
     {
-        public PricingStrategy pricingStrategy { get; set; }
+        public PricingStrategy PricingStrategy { get; set; }
 
         public PackageType(){ }
 
         public PackageType(PricingStrategy pricingStrategy)
         {
-            this.pricingStrategy = pricingStrategy;
+            this.PricingStrategy = pricingStrategy;
         }
     }
 }

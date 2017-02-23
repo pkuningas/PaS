@@ -1,16 +1,15 @@
 ﻿namespace Logic
 {
-    class ProductType
+    public class ProductType
     {
-        private string ID { get; set; }
-        private string value { get; set; }
-
+        public ProductTypeID ID { get; set; }
+        public PossiblePrices Prices { get; set; }
         public ProductType() { }
 
-        public ProductType(string ID, string value)
+        public ProductType( ProductTypeID ID)
         {
             this.ID = ID;
-            this.value = value;
+            
         }
     }
 }
