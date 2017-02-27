@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Logic.PackageType">
-    <Position X="3.75" Y="3.25" Width="2.25" />
+    <Position X="2.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PackageType.cs</FileName>
@@ -11,7 +11,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Logic.ProductType">
-    <Position X="0.75" Y="3.25" Width="1.5" />
+    <Position X="0.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ProductType.cs</FileName>
@@ -24,42 +24,78 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Logic.ProductTypeID" Collapsed="true">
-    <Position X="2.75" Y="1.25" Width="1.5" />
+    <Position X="2.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ProductTypeID.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.CatalogueCategory" Collapsed="true">
-    <Position X="7.75" Y="1" Width="1.75" />
+    <Position X="8.75" Y="2.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CatalogueCategory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.PossiblePrice" Collapsed="true">
-    <Position X="0.75" Y="2" Width="1.5" />
+    <Position X="0.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PossiblePrice.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.Price" Collapsed="true">
-    <Position X="0.75" Y="1" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Price.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.Attribute">
-    <Position X="7.5" Y="2.5" Width="2" />
+    <Position X="9" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAACAA=</HashCode>
       <FileName>Attribute.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Logic.PossiblePrices" Collapsed="true">
+    <Position X="2.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PossiblePrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Archetypes&lt;T&gt;">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAkAAAAAAABAQCAAABAQAAAAAAAAECAAAAABQIAA=</HashCode>
+      <FileName>Archetypes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logic.Archetype" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Archetype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.ArbitaryPrice" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArbitaryPrice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.CatalogueEntry" Collapsed="true">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CatalogueEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Enum Name="Logic.PricingStrategy">
-    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Position X="6.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAKEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>PricingStrategy.cs</FileName>

@@ -40,10 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArbitaryPrice.cs" />
     <Compile Include="Archetype.cs" />
     <Compile Include="Archetypes.cs" />
     <Compile Include="CatalogueCategory.cs" />
     <Compile Include="Attribute.cs" />
+    <Compile Include="CatalogueEntry.cs" />
     <Compile Include="PackageType.cs" />
     <Compile Include="PossiblePrice.cs" />
     <Compile Include="PossiblePrices.cs" />

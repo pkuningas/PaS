@@ -18,9 +18,9 @@ namespace Tests.Logic
         }
 
         [TestMethod]
-        public void CreateTest()
+        public void ConstructorTest()
         {
-            //Assert.IsNotNull(new Archetypes());
+            
         }
     }
 }

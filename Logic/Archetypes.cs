@@ -1,5 +1,4 @@
-﻿using Logic;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -44,17 +43,17 @@ namespace Logic
 
         public int IndexOf(T item)
         {
-            throw new NotImplementedException();
+            return list.IndexOf(item);
         }
 
         public void Insert(int index, T item)
         {
-            throw new NotImplementedException();
+            list.Insert(index, item);
         }
 
         public void RemoveAt(int index)
         {
-            throw new NotImplementedException();
+            list.RemoveAt(index);
         }
 
         public void Add(T item)
@@ -69,27 +68,34 @@ namespace Logic
 
         public bool Contains(T item)
         {
-            throw new NotImplementedException();
+            if (list.Contains(item))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            } 
         }
 
         public void CopyTo(T[] array, int arrayIndex)
         {
-            throw new NotImplementedException();
+            list.CopyTo(array, arrayIndex);
         }
 
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            return list.Remove(item);
         }
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return list.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return list.GetEnumerator();
         }
     }
 }
