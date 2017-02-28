@@ -7,6 +7,7 @@ namespace Tests.Logic
     [TestClass]
     public class PricingStrartegyTests
     {
+
         [TestMethod]
         public void ConstructorTest()
         {
