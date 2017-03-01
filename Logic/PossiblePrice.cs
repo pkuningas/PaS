@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Logic
+﻿namespace Logic
 {
-    public class PossiblePrice: Price
+    public class PossiblePrice //: Price  TODO: Kommenteeri välja kui Price klass õige
     {
     }
 }
