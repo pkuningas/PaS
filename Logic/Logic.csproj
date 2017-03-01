@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArbitaryPrice.cs" />
+    <Compile Include="ArbitraryPrice.cs" />
     <Compile Include="Archetype.cs" />
     <Compile Include="Archetypes.cs" />
     <Compile Include="CatalogueCategory.cs" />

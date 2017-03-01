@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-    class ArbitaryPrice
+    class ArbitraryPrice
     {
     }
 }
