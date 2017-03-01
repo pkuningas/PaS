@@ -2,12 +2,12 @@
 {
     public class Price : Money //Price täiendab klassi Money
     {
-        public Money Money { get; set; }  //TODO: Vale, mõtle uuesti
-        public Price(Money money)
+        public Money Amount { get; set; }  //TODO: Vale, mõtle uuesti
+        public Price() { }       
+        public Price(Money amount)
         {
-            this.Money = money;
+            this.Amount = amount;
         }
-
     }
 
     public class Money
