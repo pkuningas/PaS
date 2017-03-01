@@ -6,6 +6,5 @@
         Aggregated = 1,
         Assigned = 2,
         NotApplicable = 9
-
     }
 }
