@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Logic
+﻿namespace Logic
 {
-    public class Price
+    public class Price : Money
+    {
+        public Money Money { get; set; }
+        public Price(Money money)
+        {
+            this.Money = money;
+        }
+
+    }
+
+    public class Money
     {
     }
 }
