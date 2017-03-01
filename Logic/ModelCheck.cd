@@ -47,7 +47,7 @@
   <Class Name="Logic.Price" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Price.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -68,7 +68,7 @@
   <Class Name="Logic.Archetypes&lt;T&gt;">
     <Position X="4.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEIAAkAAAAAAABAQCAAABAQAAAAAAAAECAAAAABQIAA=</HashCode>
+      <HashCode>AEIAAEAAAAAAABAQCAAABAQAAAAAAAAECAAAAABQIAI=</HashCode>
       <FileName>Archetypes.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -76,7 +76,7 @@
   <Class Name="Logic.Archetype" Collapsed="true">
     <Position X="2.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>Archetype.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -88,9 +88,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.CatalogueEntry" Collapsed="true">
-    <Position X="8.75" Y="1.25" Width="1.5" />
+    <Position X="7.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>CatalogueEntry.cs</FileName>
     </TypeIdentifier>
   </Class>

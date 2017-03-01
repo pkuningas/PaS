@@ -2,12 +2,12 @@
 {
     public class Attribute
     {
-        private string Category { get; set; }
-        private string ConfirmedBy { get; set; }
-        private string Value { get; set; }
+        public string Category { get; set; }
+        public string ConfirmedBy { get; set; }
+        public double Value { get; set; }
         public Attribute() { }
 
-        public Attribute(string category, string confirmedBy, string value)
+        public Attribute(string category, string confirmedBy, double value)
         {
             this.Category = category;
             this.ConfirmedBy = confirmedBy;

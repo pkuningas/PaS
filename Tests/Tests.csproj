@@ -53,8 +53,9 @@
     <Compile Include="Aids\Utils.cs" />
     <Compile Include="Logic\ArchetypeTests.cs" />
     <Compile Include="Logic\ArchetypesTests.cs" />
+    <Compile Include="Logic\AttributeTests.cs" />
     <Compile Include="Logic\PackageTypeTests.cs" />
-    <Compile Include="Logic\PricingStrartegyTests.cs" />
+    <Compile Include="Logic\PricingStrategyTests.cs" />
     <Compile Include="Logic\ProductTypeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
