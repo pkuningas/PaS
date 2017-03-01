@@ -1,101 +1,88 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 
 namespace Logic
 {
-    public class Archetypes<T>: IList<T>
+    public class Archetypes<T>: Archetype, IList<T>
     {
-        private readonly List<T> list;
-        public Archetypes()
-        {
-            list = new List<T>();
-        }
+        public readonly List<T> List = new List<T>();
 
-        public int Count
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public int Count => List.Count;
 
-        public bool IsReadOnly
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public bool IsReadOnly { get; set; }
 
         public T this[int index]
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
+            get { return List[index]; }
             set
             {
-                throw new NotImplementedException();
+                if (IsReadOnly)
+                {
+                    return;
+                }
+                List[index] = value;
+                DoOnChanged();
             }
         }
 
         public int IndexOf(T item)
         {
-            return list.IndexOf(item);
+            return List.IndexOf(item);
         }
 
         public void Insert(int index, T item)
         {
-            list.Insert(index, item);
+            if (IsReadOnly) return;
+            List.Insert(index, item);
+            DoOnChanged();
         }
 
         public void RemoveAt(int index)
         {
-            list.RemoveAt(index);
+            if (IsReadOnly) return;
+            List.RemoveAt(index);
+            DoOnChanged();
         }
 
         public void Add(T item)
         {
-            list.Add(item);
+            if (IsReadOnly) return;
+            List.Add(item);
+            DoOnChanged();
         }
 
         public void Clear()
         {
-            list.Clear();
+            if (IsReadOnly) return;
+            List.Clear();
         }
 
         public bool Contains(T item)
         {
-            if (list.Contains(item))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            } 
+            return List.Contains(item);
         }
 
         public void CopyTo(T[] array, int arrayIndex)
         {
-            list.CopyTo(array, arrayIndex);
+            List.CopyTo(array, arrayIndex);
         }
 
         public bool Remove(T item)
         {
-            return list.Remove(item);
+            if (IsReadOnly) return false;
+            var remove = List.Remove(item);
+            if (remove) DoOnChanged();
+            return remove;
         }
 
         public IEnumerator<T> GetEnumerator()
         {
-            return list.GetEnumerator();
+            return List.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return list.GetEnumerator();
+            return GetEnumerator();
         }
     }
 }
