@@ -1,12 +1,12 @@
 ﻿namespace Logic
 {
-    public class ProductType
+    public class ProductType: Archetype
     {
-        public ProductTypeID ID { get; set; }
+        public string ID { get; set; } //ProductTypeID
         public PossiblePrices Prices { get; set; }
         public ProductType() { }
 
-        public ProductType( ProductTypeID ID)
+        public ProductType( string ID) //ProductTypeID
         {
             this.ID = ID;
             

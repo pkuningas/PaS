@@ -3,6 +3,7 @@
     public class CatalogueEntry
     {
         private string Identifier { get; set; }
+        private string Description { get; set; }
 
         public CatalogueEntry GetCategories(string identifier)
         {
@@ -10,10 +11,9 @@
             return null;
         }
 
-        public CatalogueEntry GetProductTypes(string ID)
+        public ProductTypes GetProductTypes(string ID)
         {
-            this.Identifier = ID;
-            return null;
+            return ProductTypes.Instances.GetProductTypesByID(ID);
         }
-}
+    }
 }

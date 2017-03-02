@@ -7,8 +7,23 @@ namespace Tests.Logic
 {
     [TestClass]
     public class PackageTypeTests
-    {  
+    {
+        public void InitializeTest()
+        {
+            
+        }
 
+        [TestCleanup]
+        public void TestCleanup()
+        {
+            
+        }
+
+        [TestMethod]
+        public void ConstructorTest()
+        {
+            
+        }
         [TestMethod]
         public void PackageTypeTest()
         {

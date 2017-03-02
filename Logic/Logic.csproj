@@ -50,9 +50,13 @@
     <Compile Include="PossiblePrice.cs" />
     <Compile Include="PossiblePrices.cs" />
     <Compile Include="Price.cs" />
+    <Compile Include="Prices.cs" />
     <Compile Include="PricingStrategy.cs" />
+    <Compile Include="ProductInstance.cs" />
     <Compile Include="ProductType.cs" />
+    <Compile Include="ProductCatalogue.cs" />
     <Compile Include="ProductTypeID.cs" />
+    <Compile Include="ProductTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
