@@ -8,29 +8,27 @@ namespace Tests.Logic
     [TestClass]
     public class PackageTypeTests
     {
+        private PackageType packageType;
+        private string expected;
+        private string actual;
+
+        [TestInitialize]
         public void InitializeTest()
         {
-            
+            packageType = new PackageType(PricingStrategy.Aggregated);
         }
 
         [TestCleanup]
         public void TestCleanup()
         {
-            
+            packageType = null;
         }
 
         [TestMethod]
-        public void ConstructorTest()
+        public void PackageTypeConstructorTest()
         {
-            
-        }
-        [TestMethod]
-        public void PackageTypeTest()
-        {
-            PackageType packageType = new PackageType(PricingStrategy.Aggregated);
-
-            string expected = "Aggregated";
-            string actual = packageType.PricingStrategy.ToString();
+            expected = "Aggregated";
+            actual = packageType.PricingStrategy.ToString();
             Assert.AreEqual(expected, actual);
         }
     }
