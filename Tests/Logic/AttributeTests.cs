@@ -26,6 +26,7 @@ namespace Tests.Logic
             double Value = 500;
             Attribute target = new Attribute(Category, ConfirmedBy, Value);
             Assert.AreEqual<string>(Category, Attribute.Category, "Gadgets");
+            //kommentaar
 
         }
     }
