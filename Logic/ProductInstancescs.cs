@@ -1,6 +1,0 @@
-﻿namespace Logic
-{
-    class ProductInstancescs
-    {
-    }
-}
