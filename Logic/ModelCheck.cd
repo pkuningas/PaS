@@ -47,7 +47,7 @@
   <Class Name="Logic.Price" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Price.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -80,18 +80,18 @@
       <FileName>Archetype.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Logic.ArbitaryPrice" Collapsed="true">
+  <Class Name="Logic.CatalogueEntry" Collapsed="true">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CatalogueEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.ArbitraryPrice" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ArbitaryPrice.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Logic.CatalogueEntry" Collapsed="true">
-    <Position X="7.75" Y="1.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAQAAAAAA=</HashCode>
-      <FileName>CatalogueEntry.cs</FileName>
+      <FileName>ArbitraryPrice.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Logic.PricingStrategy">
