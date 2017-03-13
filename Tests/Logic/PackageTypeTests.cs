@@ -1,6 +1,4 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
-using Logic;
+﻿using Logic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests.Logic
