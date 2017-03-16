@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-    class PackageTypes
+    public class PackageTypes : Archetypes<PackageType>
     {
         public static PackageTypes Instances { get; } = new PackageTypes();
     }

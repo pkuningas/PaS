@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-    class Attributes
+    public class Attributes : Archetypes<Attribute>
     {
         public static Attributes Instances { get; } = new Attributes();
     }

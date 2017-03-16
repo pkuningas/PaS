@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-    class ArbitraryPrices
+    public class ArbitraryPrices : Archetypes<ArbitraryPrice>
     {
         public static ArbitraryPrices Instances { get; } = new ArbitraryPrices();
     }

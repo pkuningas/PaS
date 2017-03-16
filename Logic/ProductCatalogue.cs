@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-    class ProductCatalogue
+    public class ProductCatalogue
     {
     }
 }
